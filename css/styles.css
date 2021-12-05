@@ -149,6 +149,28 @@ secondary
     width: 350px;
 }
 
+
+
+                                              /*Skills-container*/
+
+.fa-mobile-alt{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (min-width: 992px){
     .nav{
         max-height: none;
