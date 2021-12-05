@@ -139,7 +139,7 @@ secondary
 
 .about-container,p{
     font-family: "Segoe UI italic";
-    font-size: 12px;
+    font-size: 8px;
     color: white;
 
 }
@@ -153,11 +153,26 @@ secondary
 
                                               /*Skills-container*/
 
-.fa-mobile-alt{
+.icon{
     color: white;
+    margin-top: 1rem;
 }
 
+.container-skills,p{
+    color: white;
+    font-family: "Segoe UI italic";
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 1rem;
+}
 
+.container-skills,h1{
+    color: white;
+    font-family: "Ink Free";
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 1rem;
+}
 
 
 
