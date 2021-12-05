@@ -61,11 +61,7 @@ secondary
     background-color: lightgrey;
 }
 
-.image-small{
-    width: 250px;
-    height: 200px;
-    background-color: pink;
-}
+
 
 .container >.row{
     margin-top: 10rem;
@@ -166,14 +162,28 @@ secondary
     margin-top: 1rem;
 }
 
-.container-skills,h1{
+.container-skills,h3{
     color: white;
     font-family: "Ink Free";
     font-size: 16px;
     justify-content: center;
     margin-top: 1rem;
 }
+.container-skills,h1{
+    color: white;
+    font-family: "Ink Free";
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 1rem;
+}
 
+.image-small{
+    width: 250px;
+    height: 200px;
+    background-color: black;
+}
+
+                                       /*Projects-container små bokse med projekt-logoer*/
 
 
 
