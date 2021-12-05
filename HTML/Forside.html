@@ -1,0 +1,149 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+  <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+  <meta charset="utf-8">
+
+  <!-- Titel som ses oppe i browserens tab mv. -->
+  <title>sophieøstergaard.dk-Grid-template</title>
+
+  <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+  <meta name="robots" content="All">
+  <meta name="author" content="Udgiver">
+  <meta name="copyright" content="Information om copyright">
+
+  <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+  <link href="../css/mmdgrid.css" rel="stylesheet" type="text/css">
+  <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+  <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+                                               <!--Topbar start-->
+<body>
+<div class="container-fluid h-auto navbar-container">
+  <div class="navbar row p-3 bg-secondary">
+
+    <div class="col-8 col-lg-4 text-center">
+    <img class="Forside-logo" src="../Images/Portfolio-logo%203.PNG" alt="Forside-logo">
+    <h2 class="logo">Sophie Østergaard</h2>
+    </div>
+
+
+    <div class="col-8 d-lg-none">
+      <div class="toggle d-flex justify-content-end">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="nav col-12 col-lg-8">
+
+      <div class="row justify-content-end">
+        <div class="col-lg-auto p-3"><a href="Forside.html">Frontpage</a></div>
+        <div class="col-lg-auto p-3"><a href="Projects.html">Projects</a></div>
+        <div class="col-lg-auto p-3"><a href="Contact.html">Contact</a></div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+                                                <!--Topbar slut-->
+
+<div class="container-fluid">
+  <div class="row h-100 align-items-center bg-primary">
+    <div class="col text-center">
+      <a href="#">Klik på mig</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="row gy-3">
+  <div class="row gy-3 mt-3">
+    <div class="col-auto"><div class="image-small"></div></div>
+    <div class="col-auto"><div class="image-small"></div></div>
+    <div class="col-auto"><div class="image-small"></div></div>
+    <div class="col-auto"><div class="image-small"></div></div>
+  </div>
+
+  <div class="col-md-6">
+    <h3>Miaw</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+  </div>
+  <div class="col-md-6">
+
+  </div>
+</div>
+
+<div class="row gy-3">
+  <div class="col-md-6">
+    <h3>Vuf</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+
+    <div class="row gy-3 mt-3">
+      <div class="col-auto"><div class="image-small"></div></div>
+      <div class="col-auto"><div class="image-small"></div></div>
+      <div class="col-auto"><div class="image-small"></div></div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="image-large h-100"></div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-lg-3 gy-5">
+    <div class="col">
+      <h3>Kvæk</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+
+      <div class="image-large mt-3"></div>
+    </div>
+
+    <div class="col">
+      <h3>Kvæk</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+
+      <div class="image-large mt-3"></div>
+    </div>
+
+    <div class="col">
+      <h3>Kvæk</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio quis sint! Animi dolorum eum illum libero nulla, porro praesentium. At consequatur deserunt dolor dolorem, fugiat tempore tenetur velit vero?</p>
+
+      <div class="image-large mt-3"></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid mt-5">
+  <div class="row h-100 align-items-center bg-primary">
+    <div class="col text-center">
+      @Miaw Vuf Kvæk
+    </div>
+  </div>
+</div>
+
+<script>
+  const toggle = document.querySelector('.toggle');
+  const nav = document.querySelector('.nav');
+  toggle.addEventListener('click', () => nav.classList.toggle('show'));
+
+</script>
+
+</body>
+</html>
