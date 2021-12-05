@@ -56,10 +56,7 @@ secondary
 }
 
 
-.image-large{
-    min-height: 250px;
-    background-color: lightgrey;
-}
+
 
 
 
@@ -98,7 +95,7 @@ secondary
 }
 
 
-/*Container-fluid med ansigt og velkommen-tekst*/
+                                /*Container-fluid med ansigt og velkommen-tekst*/
 .face-pic2{
     height: 400px;
     width: 350px;
@@ -124,7 +121,7 @@ secondary
 }
 
 
-/*About-container med om mig tekst + portræt*/
+                                 /*About-container med om mig tekst + portræt*/
 
 .about-container,h1{
     font-family: "Ink Free";
@@ -141,8 +138,15 @@ secondary
 }
 
 .About-container{
-    height: 300px;
+    height: 400px;
     width: 350px;
+}
+
+.portræt-pic{
+    height: 126px;
+    width: 127px;
+    border-radius: 100%;
+    align-items: center;
 }
 
 
@@ -185,6 +189,18 @@ secondary
 
                                        /*Projects-container små bokse med projekt-logoer*/
 
+
+.project-container{
+    height:400px;
+    width: 400px;
+}
+.image-large{
+
+}
+.image-small-pic{
+    width: 78px;
+    height: 65px;
+}
 
 
 
