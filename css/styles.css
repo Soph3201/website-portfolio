@@ -101,13 +101,13 @@ secondary
 
                                 /*Container-fluid med ansigt og velkommen-tekst*/
 .face-pic2{
-    height: 400px;
-    width: 350px;
+    height: 341px;
+    width: 296px;
     justify-content: center;
 }
 
 .container-fluid{
-    height: 275px;
+    height: 300px;
 
 }
 
@@ -127,14 +127,15 @@ secondary
 
                                  /*About-container med om mig tekst + portræt*/
 
-.about-container,h1{
+.About-container,h1{
     font-family: "Ink Free";
     font-size: 40px;
     text-align: center;
     color: white;
+    margin-top: 2rem;
 }
 
-.about-container,p{
+.About-container,p{
     font-family: "Segoe UI italic";
     font-size: 8px;
     color: white;
@@ -143,14 +144,18 @@ secondary
 
 .About-container{
     height: 400px;
-    width: 350px;
+    width: 375px;
+    display: flex;
+
 }
 
 .portræt-pic{
     height: 126px;
     width: 127px;
     border-radius: 100%;
-    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 
 
