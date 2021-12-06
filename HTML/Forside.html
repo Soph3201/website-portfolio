@@ -30,22 +30,27 @@
 <body>
 
 <div class="container-fluid h-auto navbar-container">
-   <div class="navbar row p-3 bg-secondary">
-   <div class="col-4">Logo</div>
-   <div class="togle d-flex justify-content-center-end"><div>
-     <i class="fas fa-bars"></i>
-     </div>
-     </div>
+  <div class="navbar row p-3 bg-secondary"><div>
+    <div class="row col-4">
+    <img src="../Images/Portfolio-logo%203.PNG">
+      <div class="row">
+      <h1 class="navbar-title">Sophie Østergaard</h1>
+      </div>
+    </div>
+    <div class="toggle d-flex justify-content-end align-items-center">
+    <i class="fas fa-bars"></i></div>
+  </div>
 
     <div class="nav col-12 col-lg-8">
       <div class="row justify-content-end">
         <div class="col-lg-auto p-3"><a href="Forside.html">Frontpage</a></div>
         <div class="col-lg-auto p-3"><a href="Projects.html">Projects</a></div>
         <div class="col-lg-auto p-3"><a href="Contact.html">Contact</a></div>
-
       </div>
     </div>
- </div>
+</div>
+
+
 
 
 
@@ -133,12 +138,12 @@
       </div>
     </div>
 
-   <div class=""><div class="image-small-pic">
+   <div class="image-small-pic">
       <img class="NFR-pic" src="../Images/Den%20hurtige%20skildpadde-logo.PNG" alt="DHS-project-pic>
       <p>Read more here</p>
    </div>
 
-   <div><div class="image-small-pic">
+   <div class="image-small-pic">
       <img class="Ocean-pic" src="../Images/Den%20hurtige%20skildpadde-logo2.PNG" alt="Ocean-project-pic>
       <p>Read more here</p>
    </div>
@@ -146,11 +151,11 @@
 
 
 
-  <script>
+<script>
     const toggle = document.querySelector('.toggle');
     const nav = document.querySelector('.nav');
     toggle.addEventListener('click', () => nav.classList.toggle('show'));
- </script>
+</script>
 
 </body>
 </html>

@@ -57,6 +57,7 @@ secondary
 
 
 
+/*Topbar*/
 
 
 
@@ -87,11 +88,14 @@ secondary
     cursor:pointer;
 }
 
-/*Topbar*/
 
 .Forside-logo{
     height: 75px;
     width: 75px;
+}
+
+.navbar-title{
+    font-size: 15px;
 }
 
 
