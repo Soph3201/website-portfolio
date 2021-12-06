@@ -56,11 +56,6 @@ secondary
 }
 
 
-
-/*Topbar*/
-
-
-
 .container >.row{
     margin-top: 10rem;
 }
@@ -69,34 +64,111 @@ secondary
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
-.navbar-container{
-    position: absolute;
-}
-.nav{
-    transition: max-height .2s ease-in-out;
-    max-height: 0;
-    overflow: hidden;
-
-}
-
-.nav.show{
-    transition: max-height .2s ease-in-out;
-    max-height: 100vh;
-}
-
-.toggle{
-    cursor:pointer;
-}
 
 
-.Forside-logo{
+/*Topbar*/
+
+
+
+.logo{
     height: 75px;
     width: 75px;
 }
 
-.navbar-title{
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rosybrown;
+    font-family: "Segoe UI";
+}
+.logo-text {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
     font-size: 15px;
 }
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.nav-text {
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+.burger-bar {
+    display: none;
+}
+.burger-bar div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226 226 226);
+    margin: 5px;
+}
+
+
+
+@media screen and (min-width:600px){
+    .nav-links{
+        width: 70%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px)  {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger-bar{
+        display: block;
+    }
+
+    .logo-text{
+        font-size: 15px;
+    }
+
+}
+
+
+.navbar-container{
+    position: absolute;
+}
+
+
+
+
+
+
+
 
 
                                 /*Container-fluid med ansigt og velkommen-tekst*/
@@ -143,9 +215,8 @@ secondary
 }
 
 .About-container{
-    height: 400px;
-    width: 375px;
     display: flex;
+
 
 }
 
@@ -167,7 +238,7 @@ secondary
     margin-top: 1rem;
 }
 
-.container-skills,p{
+.skills-p{
     color: white;
     font-family: "Segoe UI italic";
     font-size: 12px;
@@ -175,14 +246,14 @@ secondary
     margin-top: 1rem;
 }
 
-.container-skills,h3{
+.skills-h3{
     color: white;
     font-family: "Ink Free";
     font-size: 16px;
     justify-content: center;
     margin-top: 1rem;
 }
-.container-skills,h1{
+.skills-text {
     color: white;
     font-family: "Ink Free";
     font-size: 50px;
@@ -191,8 +262,10 @@ secondary
 }
 
 .image-small{
-    width: 250px;
-    height: 200px;
+
+    background-color: black;
+}
+.container-skills{
     background-color: black;
 }
 
@@ -221,9 +294,4 @@ secondary
 
 
 
-@media all and (min-width: 992px){
-    .nav{
-        max-height: none;
-    }
 
-}
