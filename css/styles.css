@@ -6,6 +6,7 @@
 
 body {
     margin: 0; /* Ingen kanter i siden af browser */
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,12 +76,12 @@ secondary
     width: 75px;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rosybrown;
+    background-color: black;
     font-family: "Segoe UI";
 }
 .logo-text {
@@ -173,9 +174,9 @@ nav {
 
                                 /*Container-fluid med ansigt og velkommen-tekst*/
 .face-pic2{
-    height: 341px;
-    width: 296px;
-    justify-content: center;
+    height: 10%;
+    width: 10%;
+
 }
 
 .container-fluid{
@@ -184,7 +185,7 @@ nav {
 }
 
 .welcome-text{
-    font-family: "Ink Free";
+    font-family: "ink free";
     font-size: 40px;
     color: white;
 }
@@ -263,23 +264,19 @@ nav {
 
 .image-small{
 
-    background-color: black;
-}
-.container-skills{
-    background-color: black;
+
 }
 
                                        /*Projects-container små bokse med projekt-logoer*/
 
 
 .project-container{
-    height:400px;
-    width: 400px;
+    height:300px;
 }
 .image-large{
 
 }
-.image-small-pic{
+.p-pic{
     width: 78px;
     height: 65px;
 }
