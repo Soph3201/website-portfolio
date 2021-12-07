@@ -84,8 +84,8 @@ secondary
     background-color: black;
     font-family: "Segoe UI";
 }
-.logo-text {
-    color: rgb(226, 226, 226);
+.logo-text{
+    color: #FDDFD8;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 15px;
@@ -227,7 +227,14 @@ secondary
     border-radius: 100%;
     justify-content: center;
     display: flex;
+    margin: 2rem;
 
+}
+
+.About-text{
+    font-size: 8px;
+    font-family: "Segoe UI italic";
+    color: white;
 }
 
 
@@ -314,6 +321,13 @@ secondary
 
 .Send{
     width: 310px;
+}
+
+.Send-container{
+    text-decoration: none;
+    color: black;
+    font-family: "Ink Free";
+    font-size: 12px;
 }
 
 
