@@ -35,6 +35,8 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+
 /*
 primary
 secondary
@@ -66,6 +68,10 @@ secondary
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
+.container-fluid{
+    height: 250px;
+
+}
 
 
 /*Topbar*/
@@ -73,8 +79,8 @@ secondary
 
 
 .logo{
-    height: 75px;
-    width: 75px;
+    height: 10%;
+    width: 10%;
 }
 
 .logo-text{
@@ -105,6 +111,9 @@ secondary
 .fa-bars{
     color: white;
 }
+.nav-links{
+    color: white;
+}
 
 
 @media all and (min-width: 992px){
@@ -133,6 +142,7 @@ secondary
 .face-pic2{
     height: 10%;
     width: 10%;
+    margin-top: 5rem;
 
 }
 
