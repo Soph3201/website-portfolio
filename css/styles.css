@@ -273,20 +273,74 @@ secondary
 .project-container{
     height:300px;
 }
-.image-large{
 
-}
 .p-pic{
     width: 78px;
     height: 65px;
 }
 
+.link-p-side{
+    text-decoration: none;
+    color: white;
+    font-family: "Ink Free";
+    font-size: 10px;
+}
+
+
+
+                                                    /*Contact-info på frontpage*/
+
+.c-box{
+    background-color: #FDDFD8;
+    margin: 0.5rem;
+    border:#FDDFD8;
+
+
+}
+
+.contact-text{
+    font-family: "Ink Free";
+    font-size: 9px;
+}
+
+.info-conatiner{
+   height: 20px;
+    width: 310px;
+}
+.message-container{
+    height: 40px;
+    width: 310px;
+}
+
+.Send{
+    width: 310px;
+}
+
+
+
+
+                                        /*Send-side*/
+.tom-box{
+    height: 200px;
+}
 
 
 
 
 
+.p-s-side{
+    font-size: 20px;
+    height: 100px;
+    font-family: "Ink Free";
+    color: white;
+}
 
+.a-s-side{
+    font-family: "Segoe UI italic";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
 
 
 
