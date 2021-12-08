@@ -25,7 +25,7 @@ li {
 }
 
 p {
-    margin: 0; /* Ingen ydre margen fra paragraffer */
+
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
 
@@ -364,22 +364,37 @@ a {
     font-size: 45px;
     color: white;
 }
+.NFR-link{
+    padding: 10px;
+}
 
 
-
+.website-links{
+    color: #FDDFD8;
+    font-weight: bold;
+}
 .project-container2{
-    height: 500px;
+    height: 600px;
 }
 
-.p-text{
+.p-text2{
     font-family: "Segoe UI italic";
-    font-size: 10px;
+    font-size: 8px;
+    margin-top: 3px;
 
 }
 
-.Cherry-branch{
-    height: 10%;
-    width: 10%;
+.space{
+    margin:2rem;
+
+}
+
+.Cherry-branch-left{
+    width: 200px;
+}
+
+.Cherry-branch-right{
+width: 200px;
 }
 
 .contactme-container{
