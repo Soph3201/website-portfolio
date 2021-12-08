@@ -79,8 +79,7 @@ secondary
 
 
 .logo{
-    height: 10%;
-    width: 10%;
+    width: 100px;
 }
 
 .logo-text{
@@ -90,9 +89,6 @@ secondary
     color: #FDDFD8;
 }
 
-.navbar-container{
-    position: absolute;
-}
 .nav{
     transition: max-height .2s ease-in-out;
     max-height: 0;
@@ -143,10 +139,7 @@ a {
 
                                 /*Container-fluid med ansigt og velkommen-tekst*/
 .face-pic2{
-    height: 10%;
-    width: 10%;
-    margin-top: 5rem;
-
+    width: 250px;
 }
 
 .container-fluid{
@@ -156,7 +149,7 @@ a {
 
 .welcome-text{
     font-family: "ink free";
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     margin-top: 4rem;
 
@@ -164,9 +157,11 @@ a {
 
 .welcome-small-text{
     font-family: "Segoe UI italic";
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     margin-top: 1rem;
+    padding: 5px;
+    line-height: 20px;
 }
 
 
@@ -178,12 +173,15 @@ a {
     text-align: center;
     color: white;
     margin-top: 2rem;
+    padding: 30px;
 }
 
 .About-container,p{
     font-family: "Segoe UI italic";
     font-size: 8px;
     color: white;
+    letter-spacing: 1px;
+    line-height: 10px;
 
 }
 
@@ -225,6 +223,8 @@ a {
     font-size: 12px;
     justify-content: center;
     margin-top: 1rem;
+    padding: 15px;
+    line-height: 15px;
 }
 
 .skills-h3{
@@ -251,12 +251,12 @@ a {
 
 
 .project-container{
-    height:300px;
+    height:200px;
 }
 
 .p-pic{
-    width: 78px;
-    height: 65px;
+    width: 100px;
+    height: 100px;
 }
 
 .link-p-side{
@@ -264,6 +264,7 @@ a {
     color: white;
     font-family: "Ink Free";
     font-size: 10px;
+    margin: 0.5rem;
 }
 
 
@@ -280,7 +281,7 @@ a {
 
 .contact-text{
     font-family: "Ink Free";
-    font-size: 9px;
+    font-size: 15px;
 }
 
 .info-conatiner{
@@ -300,12 +301,32 @@ a {
     text-decoration: none;
     color: black;
     font-family: "Ink Free";
-    font-size: 12px;
-    height: 20px;
-    width: 310;
+    font-size: 15px;
+    padding: 10px 20px;
 
 }
 
+.labelInput{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    margin: 10px 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-me-text{
+    font-family: "Ink Free";
+    font-size: 40px;
+    margin: 0;
+}
+
+.contact-me-p{
+    font-family: "Segoe UI italic";
+    font-size: 12px;
+    padding: 30px;
+
+}
 
 
 
@@ -375,4 +396,19 @@ a {
 }
 .please-contact{
 
+}
+
+                                                         /*Footer*/
+
+.footer{
+    height: 70px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: right;
+    padding: 5px;
+    margin-top: 2rem;
+}
+
+.Some{
+    padding: 5px;
 }
