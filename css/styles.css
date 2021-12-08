@@ -374,7 +374,13 @@ a {
     font-weight: bold;
 }
 .project-container2{
-    height: 600px;
+    height: 800px;
+}
+
+.SoMe-text{
+    font-family: "Ink Free";
+    font-size: 12px;
+
 }
 
 .p-text2{
