@@ -47,7 +47,7 @@ secondary
 }
 
 .bg-secondary{
-    background-color: lightcoral;
+    background-color: #FDDFD8;
 }
 
 .text-primary{
@@ -56,7 +56,7 @@ secondary
 
 
 .text-secondary{
-    color:lightcoral ;
+    color:#FDDFD8 ;
 }
 
 
@@ -87,7 +87,7 @@ secondary
     font-family: "Ink Free";
     font-size: 15px;
     letter-spacing: 5px;
-    color: white;
+    color: #FDDFD8;
 }
 
 .navbar-container{
@@ -111,8 +111,11 @@ secondary
 .fa-bars{
     color: white;
 }
-.nav-links{
-    color: white;
+
+
+a {
+    text-decoration: none;
+    color: #FDDFD8;
 }
 
 
@@ -213,6 +216,7 @@ secondary
 .icon{
     color: white;
     margin-top: 1rem;
+    font-size: 40px;
 }
 
 .skills-p{
@@ -297,6 +301,9 @@ secondary
     color: black;
     font-family: "Ink Free";
     font-size: 12px;
+    height: 20px;
+    width: 310;
+
 }
 
 
@@ -306,9 +313,6 @@ secondary
 .tom-box{
     height: 200px;
 }
-
-
-
 
 
 .p-s-side{
