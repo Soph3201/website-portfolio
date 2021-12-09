@@ -395,12 +395,13 @@ a {
 
 }
 
-.Cherry-branch-left{
+.Cherry-branch-left2{
     width: 200px;
 }
 
-.Cherry-branch-right{
+.Cherry-branch-right2{
 width: 200px;
+    margin-top: 15px;
 }
 
 .contactme-container{
@@ -422,6 +423,18 @@ width: 200px;
 
 }
 
+@media all and (min-width: 300px){
+    .text-center2{
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (min-width: 600px){
+    .text-center2{
+        margin-top: 25px;
+
+    }
+}
 
 
 
@@ -449,3 +462,4 @@ width: 200px;
     font-size: 12px;
     padding: 10px;
 }
+
