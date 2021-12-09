@@ -442,7 +442,35 @@ width: 200px;
 }
 
 
+.tlf{
+    padding: 30px;
 
+}
+
+.mail{
+    padding: 30px;
+    margin-top: 0.5rem;
+}
+
+.tlf-text{
+    font-size: 14px;
+    font-family: "Ink Free";
+}
+
+.number{
+    font-size: 10px;
+    font-family: "Segoe UI italic";
+}
+
+.Mail{
+  font-size: 14px;
+    font-family: "Ink Free";
+}
+
+.E-mail{
+    font-size: 10px;
+    font-family: "Segoe UI italic";
+}
 
 
 
@@ -592,6 +620,45 @@ width: 200px;
         margin-bottom: 50px;
     }
 
+    .tlf{
+        padding: 30px;
+    }
+
+    .mail{
+        padding: 30px;
+        margin-top: 0.5rem;
+    }
+
+ .tlf-text{
+     font-size: 20px;
+ }
+
+ .number{
+     font-size: 13px;
+ }
+
+    .tlf-text{
+        font-size: 20px;
+
+    }
+
+    .number{
+        font-size: 13px;
+
+    }
+
+    .Mail{
+        font-size: 20px;
+
+    }
+
+    .E-mail{
+        font-size: 13px;
+
+    }
+}
+
+
 
 }
 
@@ -705,4 +772,25 @@ width: 200px;
     .contact-me-text2{
         margin-bottom: 50px;
     }
+
+    .tlf-text{
+        font-size: 22px;
+
+    }
+
+    .number{
+        font-size: 15px;
+
+    }
+
+    .Mail{
+        font-size: 22px;
+
+    }
+
+    .E-mail{
+        font-size: 15px;
+
+    }
+
 }
