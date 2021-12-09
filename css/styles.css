@@ -240,10 +240,6 @@ a {
     margin-top: 1rem;
 }
 
-.image-small{
-
-
-}
 
                                        /*Projects-container små bokse med projekt-logoer*/
 
@@ -415,26 +411,6 @@ width: 200px;
     font-size: 18px;
 }
 
-@media all and (min-width: 992px){
-    .project-pic{
-        width: 146px;
-        height: 140px;
-    }
-
-}
-
-@media all and (min-width: 300px){
-    .text-center2{
-        margin-bottom: 15px;
-    }
-}
-
-@media all and (min-width: 600px){
-    .text-center2{
-        margin-top: 25px;
-
-    }
-}
 
 
 
@@ -463,3 +439,117 @@ width: 200px;
     padding: 10px;
 }
 
+
+
+
+
+
+
+                                                        /*mediaquerries*/
+
+
+
+@media all and (min-width: 360px){
+                                                       /*Til forside*/
+    .text-center2{
+        margin-bottom: 15px;
+    }
+
+    .About-text{
+        line-height: 12px;
+        padding: 10px;
+    }
+
+    .skills-text{
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 768px){
+                                                    /*Til forside*/
+
+    .text-center2{
+        margin-top: 25px;
+
+    }
+
+    .About-text{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px;
+    }
+
+    .face-pic2{
+        width: 300px;
+    }
+
+
+    .welcome-text{
+        font-size: 40px;
+    }
+
+    .welcome-small-text{
+        font-size: 24px;
+    }
+
+    .About-title{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .portræt-pic{
+
+    }
+
+    .portræt-pic{
+        height: 243px;
+        width: 254px;
+
+
+    }
+
+    .skills-text{
+        font-size: 50px;
+    }
+}
+
+
+@media all and (min-width: 1200px){
+                                                       /*Til forside*/
+    .project-pic{
+        width: 146px;
+        height: 140px;
+    }
+
+    .About-text{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .face-pic2{
+        width: 350px;
+    }
+
+    .welcome-text{
+        font-size: 50px;
+    }
+
+    .welcome-small-text{
+        font-size: 34px;
+    }
+
+    .About-title{
+        font-size: 60px;
+        margin-bottom: 30px;
+
+    }
+
+    .portræt-pic{
+        width: 333px;
+        height: 329px;
+    }
+
+    .skills-text{
+        font-size: 60px;
+    }
+}
