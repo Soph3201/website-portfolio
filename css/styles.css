@@ -210,7 +210,7 @@ a {
                                               /*Skills-container*/
 
 .icon{
-    color: white;
+    color: #FDDFD8;
     margin-top: 1rem;
     font-size: 40px;
 }
@@ -255,7 +255,7 @@ a {
 
 .link-p-side{
     text-decoration: none;
-    color: white;
+    color: #ffbdbd;
     font-family: "Ink Free";
     font-size: 10px;
     margin: 0.5rem;
@@ -275,7 +275,7 @@ a {
 
 .contact-text{
     font-family: "Ink Free";
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .info-conatiner{
@@ -320,6 +320,8 @@ a {
     font-size: 12px;
     padding: 30px;
     line-height: 15px;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -366,7 +368,7 @@ a {
 
 
 .website-links{
-    color: #FDDFD8;
+    color: #ffbdbd;
     font-weight: bold;
 }
 .project-container2{
@@ -433,7 +435,7 @@ width: 200px;
 
                                                         /*Contact-side*/
 
-.contact-text{
+.contact-text2{
     font-family: "Segoe UI italic";
     font-size: 12px;
     padding: 10px;
@@ -450,7 +452,7 @@ width: 200px;
 
 
 @media all and (min-width: 360px){
-                                                       /*Til forside*/
+                                                       /*Til Indhold på forside*/
     .text-center2{
         margin-bottom: 15px;
     }
@@ -466,7 +468,7 @@ width: 200px;
 }
 
 @media all and (min-width: 768px){
-                                                    /*Til forside*/
+                                                    /*Til indhold på forside*/
 
     .text-center2{
         margin-top: 25px;
@@ -511,11 +513,91 @@ width: 200px;
     .skills-text{
         font-size: 50px;
     }
+
+    .skills-h3{
+        font-size: 18px;
+    }
+
+    .skills-p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .icon{
+        font-size: 50px;
+    }
+
+    .text-center{
+        font-size: 50px;
+    }
+
+    .p-pic{
+        width: 194px;
+        height: 143px;
+    }
+
+    .link-p-side{
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    .contact-me-p{
+        font-size: 14px;
+    }
+
+    .info-conatiner{
+        height: 35px;
+        width: 642px;
+    }
+    .message-container{
+        height: 91px;
+        width: 642px;
+    }
+
+    .Send-container{
+        height: 70px;
+        width: 150px;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-text{
+        font-size: 15px;
+    }
+
+                                                 /*Til indhold på Project-side*/
+    .project-pic{
+        width: 194px;
+        height: 143px;
+    }
+
+    .p-text2{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .website-links{
+        font-size: 12px;
+    }
+
+                                                     /*Til alt på Contact-side*/
+
+    .contact-me-text{
+        margin-bottom: 50px;
+    }
+
+    .contact-me-text2{
+        margin-bottom: 50px;
+    }
+
+
 }
 
 
 @media all and (min-width: 1200px){
-                                                       /*Til forside*/
+                                                       /*Til indhold på forside*/
     .project-pic{
         width: 146px;
         height: 140px;
@@ -551,5 +633,76 @@ width: 200px;
 
     .skills-text{
         font-size: 60px;
+    }
+
+    .skills-p{
+        font-size: 18px;
+    }
+    .skills-h3{
+        font-size: 22px;
+    }
+
+    .icon{
+        font-size: 60px;
+    }
+
+    .text-center{
+        font-size: 50px;
+        margin-top: 8rem;
+    }
+
+    .p-pic{
+        width: 330px;
+        height: 330px;
+    }
+
+    .link-p-side{
+        font-size: 28px;
+        margin-top: 2rem;
+    }
+
+    .contact-me-p{
+        font-size: 25px;
+    }
+
+    .contact-me-text{
+        margin-top: 12rem;
+    }
+
+    .contact-text{
+        font-size: 20px;
+    }
+
+    .Send-container{
+        height: 80px;
+        width: 170px;
+        font-size: 25px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+                                             /*Til indhold på Project-side*/
+    .project-pic{
+        width: 330px;
+        height: 330px;
+    }
+
+    .p-text2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .website-links{
+        font-size: 15px;
+    }
+
+
+
+                                                  /*Til alt på Contact-side*/
+
+    .contact-me-text2{
+        margin-bottom: 50px;
     }
 }
