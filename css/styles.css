@@ -629,13 +629,13 @@ width: 200px;
         margin-top: 0.5rem;
     }
 
- .tlf-text{
+    .tlf-text{
      font-size: 20px;
- }
+    }
 
- .number{
+    .number{
      font-size: 13px;
- }
+    }
 
     .tlf-text{
         font-size: 20px;
@@ -658,9 +658,6 @@ width: 200px;
     }
 }
 
-
-
-}
 
 
 @media all and (min-width: 1200px){
